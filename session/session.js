@@ -67,7 +67,7 @@ const server = http.createServer((req,res) => {
     
     
     else {
-        fs.readFile('./Identify_User.html', (err,data) => {
+        fs.readFile('./session.html', (err,data) => {
             if(err){
                 throw err;
             }
